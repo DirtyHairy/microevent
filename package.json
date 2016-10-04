@@ -1,0 +1,20 @@
+{
+  "name": "microevent",
+  "version": "0.1.0",
+  "description": "Zero cost events",
+  "scripts": {
+      "prepublish": "tsc"
+  },
+  "author": "Christian Speckner <cnspeckn@googlemail.com> (https://github.com/DirtyHairy/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DirtyHairy/microevent.git"
+  },
+  "keywords": ["events"],
+  "devDependencies": {
+    "typescript": "~2.0.3"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts"
+}
