@@ -26,15 +26,15 @@ Typescript (version >= 2).
 
 ES5 / CommonJS
 
-    var Event = require('microevent').Event;
+    var Event = require('microevent.ts').Event;
 
 ES6
 
-    import {Event} from 'microevent';
+    import {Event} from 'microevent.ts';
 
 Typescript
 
-    import {Event, EventInterface} from 'microevent';
+    import {Event, EventInterface} from 'microevent.ts';
 
 The `EventInterface` covers only the client side of an event, that is adding
 and removing handlers.
