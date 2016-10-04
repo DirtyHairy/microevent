@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Zero cost events",
   "scripts": {
-      "prepublish": "tsc"
+    "prepublish": "tsc",
+    "pretest": "typings install && tsc -p tsconfig.test.json",
+    "test": "mocha -R spec -u tdd test"
   },
   "author": "Christian Speckner <cnspeckn@googlemail.com> (https://github.com/DirtyHairy/)",
   "license": "MIT",
@@ -11,9 +13,14 @@
     "type": "git",
     "url": "https://github.com/DirtyHairy/microevent.git"
   },
-  "keywords": ["events", "performance"],
+  "keywords": [
+    "events",
+    "performance"
+  ],
   "devDependencies": {
-    "typescript": "~2.0.3"
+    "mocha": "~3.1.0",
+    "typescript": "~2.0.3",
+    "typings": "^1.4.0"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts"
