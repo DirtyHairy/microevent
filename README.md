@@ -16,7 +16,7 @@ of magnitude.
 
 You can install the library into your project via npm
 
-    npm install microevent
+    npm install microevent.ts
 
 The library is written in Typescript and will work in any environment that
 supports ES5. No external typings are required for using this library with
