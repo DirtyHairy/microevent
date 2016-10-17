@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/DirtyHairy/microevent.svg?branch=master)](https://travis-ci.org/DirtyHairy/microevent)
+[![npm version](https://badge.fury.io/js/microevent.ts.svg)](https://badge.fury.io/js/microevent.ts)
+
 # What is it?
 
 This package implements an event system with minimal dispatch overhead. Instead
