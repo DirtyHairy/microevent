@@ -73,7 +73,7 @@ class Event<EventPayload> implements EventInterface<EventPayload> {
         return typeof(this._getHandlerIndex(handler, context)) !== 'undefined';
     }
 
-    dispatch: (payload: EventPayload) => void;
+    dispatch!: (payload: EventPayload) => void;
 
     hasHandlers = false;
 
@@ -81,7 +81,7 @@ class Event<EventPayload> implements EventInterface<EventPayload> {
         this.hasHandlers = !!this._handlers.length;
     }
 
-    private _getHandlerIndex<T>(handler: EventInterface.HandlerInterface<EventPayload, T>, context?: T): number {
+    private _getHandlerIndex<T>(handler: EventInterface.HandlerInterface<EventPayload, T>, context?: T): number | undefined {
         const handlerCount = this._handlers.length;
 
         let idx: number;

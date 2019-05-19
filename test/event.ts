@@ -1,7 +1,5 @@
-/// <reference path="../typings/index.d.ts"/>
-
 import Event from '../lib/Event';
-import * as assert from 'assert';
+import assert from 'assert';
 
 suite('Event handling', function() {
 
