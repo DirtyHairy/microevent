@@ -1,6 +1,6 @@
 {
   "name": "microevent.ts",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Zero cost events",
   "scripts": {
     "prepublish": "tsc",
@@ -28,6 +28,7 @@
   "types": "lib/index.d.ts",
   "files": [
     "lib",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ]
 }
